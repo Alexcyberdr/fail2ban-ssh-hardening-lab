@@ -49,3 +49,14 @@ Future Improvements
 	•	Enforce SSH key-only authentication
 	•	Implement UFW firewall rules
 	•	Integrate with SIEM (Wazuh)
+
+## Step-by-Step Lab Execution
+
+1. Baseline system validation
+2. SSH service verification
+3. Brute-force simulation (failed SSH attempts)
+4. Detection via auth.log and Fail2Ban
+5. **Automated IP ban triggered by Fail2Ban**
+6. Access validation (SSH blocked)
+7. Manual unban for validation
+
