@@ -59,4 +59,5 @@ Future Improvements
 5. **Automated IP ban triggered by Fail2Ban**
 6. Access validation (SSH blocked)
 7. Manual unban for validation
-
+### Why the IP Was Banned
+Fail2Ban monitored `/var/log/auth.log` and detected 5 failed SSH authentication attempts within a 10-minute window, reaching the configured `maxretry` threshold and triggering an automated ban via the `sshd` jail.
