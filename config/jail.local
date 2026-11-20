@@ -1,13 +1,3 @@
-Commit message:
-> Add full lab README documentation
-
----
-
-# 2️⃣ CONFIGURACIÓN FAIL2BAN
-
-📄 **Create new file → `config/jail.local`**
-
-```ini
 [sshd]
 enabled = true
 maxretry = 5
